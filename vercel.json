@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/firms-live",
+      "destination": "https://firms.modaps.eosdis.nasa.gov/api/area/csv/:key/:source/:area/:days"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
