@@ -59,7 +59,6 @@ Dodoco explicitly maps its impact to the UN Sustainable Development Goals (SDGs 
 * **Maps & Visualization:** WebGL-based mapping (Mapbox/Leaflet/Deck.gl)
 * **Live Data APIs:** NASA FIRMS API, Real-time Weather APIs, IUCN Red List
 * **AI Integration:** Google Gemini AI (for automated report generation)
-* **Deployment:** Vercel / Netlify
 
 ---
 
