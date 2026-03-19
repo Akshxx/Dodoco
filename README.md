@@ -70,3 +70,11 @@ To run Dodoco locally:
 ```bash
 git clone [https://github.com/Akshxx/Dodoco.git](https://github.com/Akshxx/Dodoco.git)
 cd Dodoco
+```
+
+**2. Install dependencies**
+```bash
+npm install
+# or
+yarn install
+```
