@@ -1,73 +1,73 @@
-# Welcome to your Lovable project
+# 🔥 Dodoco: Real-Time Wildfire & Biodiversity Intelligence
 
-## Project info
+![Dodoco Hero](docs/hero.jpeg)
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**Dodoco** is a comprehensive, real-time monitoring platform at the intersection of global wildfires and biodiversity loss. Powered by live satellite data, artificial intelligence, and conservation science, Dodoco provides actionable intelligence to track, analyze, and predict wildfire threats to critical ecosystems worldwide.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🌍 Overview
 
-**Use Lovable**
+As wildfires increasingly threaten global biodiversity, Dodoco serves as a centralized intelligence hub. It aggregates live data from NASA FIRMS and combines it with biological impact scoring to provide a holistic view of ecological threats. 
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+**Core capabilities:**
+* **Satellite Detection:** Global fire detection updated every 12 minutes using FIRMS/VIIRS sensors.
+* **AI Analysis:** Biodiversity impact scoring using IUCN species databases and Gemini AI for automated reporting.
+* **Real-Time Alerts:** Instant notifications when active fires threaten critical habitats.
+* **Impact Reporting:** SDG-aligned intelligence reports auto-generated for conservation decision-makers.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## ✨ Key Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🗺️ Live Global Monitoring
+Track active fire clusters across the globe with real-time statistics including total hectares burning, species at risk, and an overall biodiversity threat score.
+![Live Map](docs/map.jpeg)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🤖 AI-Powered Incident Reports & Predictive Sense
+Click on any active fire to view detailed metrics like Fire Radiative Power (FRP), affected area, and local wind speeds. Dodoco uses AI to generate instant, localized reports on the biome and species affected, alongside a 24-hour spread forecast.
+![AI Analysis](docs/analysis.jpeg)
 
-Follow these steps:
+### 📊 Fire Leaderboard & Analytics
+Rank active fires globally based on their severity, size, and biological impact score. Easily identify extreme and high-intensity threats at a glance.
+![Leaderboard](docs/leaderboard.jpeg)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🔮 Predictive Risk Engine
+A browser-native ML ensemble model that calculates wildfire risk using real-time weather and satellite data. It visualizes high-risk zones, spread cones, and wind vectors with high confidence.
+![Predictive Engine](docs/predict.jpeg)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+#### 🧠 Transparent 7-Factor Prediction Model
+Our risk engine scores each geographic cell (~55 km²) using 7 weighted factors, fully transparent and traceable to real observations:
+1. **FRP Intensity (25%)**: Fire Radiative Power from NASA FIRMS.
+2. **Fire Frequency (20%)**: Historical occurrence density within 100km.
+3. **Proximity Cascade (20%)**: Boosted risk for cells adjacent to active fires.
+4. **Wind Transport (15%)**: Real-time wind speed and direction data.
+5. **Biome Vulnerability (10%)**: Danger levels based on ecosystem type (e.g., Tropical Forest vs. Grassland).
+6. **Season Multiplier (5%)**: Hemisphere and month-based fire season factoring.
+7. **Day/Night Factor (5%)**: Satellite-derived spread dynamics based on time of day.
+![Model Breakdown](docs/model.jpeg)
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🎯 SDG Alignment & Nature Markets
+Dodoco explicitly maps its impact to the UN Sustainable Development Goals (SDGs 11, 13, 14, 15, 3, and 17) and tracks live trends in Nature Markets (Carbon Credits, Biodiversity Credits, Nature Tokens).
+![SDG Alignment](docs/sdg.jpeg)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🛠️ Tech Stack
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+* **Frontend:** React, TypeScript, Tailwind CSS, Vite
+* **Maps & Visualization:** WebGL-based mapping (Mapbox/Leaflet/Deck.gl)
+* **Live Data APIs:** NASA FIRMS API, Real-time Weather APIs, IUCN Red List
+* **AI Integration:** Google Gemini AI (for automated report generation)
+* **Deployment:** Vercel / Netlify
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🚀 Getting Started
 
-## What technologies are used for this project?
+To run Dodoco locally:
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**1. Clone the repository**
+```bash
+git clone [https://github.com/Akshxx/Dodoco.git](https://github.com/Akshxx/Dodoco.git)
+cd Dodoco
